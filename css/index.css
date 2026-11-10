@@ -48,7 +48,7 @@ nav ul li a {
 
 /* Header Styles */
 header {
-    background-image: url("/Users/caseyrousset/CTD-repos/Casey-Rousset-Johnson-JSIntro26.4/images/Mountain.jpeg");
+    background-image: url("../images/Mountain.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -74,7 +74,7 @@ section {
 
 /* Changed the bullets to small images and made the text bold */
 #Experience {
-    list-style-image: url("/Users/caseyrousset/CTD-repos/Casey-Rousset-Johnson-JSIntro26.4/images/comet-bullet-point.png");
+    list-style-image: url("../images/comet-bullet-point.png");
 }
 
 /* Useed flexbox and justify-content to align job titles and dates at the opposit ends of the page */
