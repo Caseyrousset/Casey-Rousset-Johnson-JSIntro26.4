@@ -1,0 +1,92 @@
+/* CSS for Casey Rousset-Johnson's Portfolio */
+
+/* General Styles */
+body {
+    background-color: #304249;
+    color: #bee0b0;
+    margin: 0;
+
+    /* Font from Google Fonts */
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+    /* font,size, weight of headings */
+    h2 {
+        font-size: 2em;
+        font-weight: bold;
+        color: #e4bc92;
+    }
+
+} 
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #e4bc92;
+    /* sticky based on optional challenge */
+    position: sticky;
+    top: 0;
+}
+
+/* Make nav bar horizontal, remove bullets, and put spaces between list items */
+nav ul {
+    list-style: none;
+    display: flex;
+    /* took me a while to figure out how to center the items and put space between them */
+    justify-content: center;
+    gap: 20px;
+    
+    margin: 0;
+    padding: 5px;
+}
+
+/* Link styles in Nav Bar */
+nav ul li a {
+    /* remove underline from links and make text easier to read*/
+    text-decoration: none;
+    color: #304249;
+    font-weight: bold;
+}
+
+/* Header Styles */
+header {
+    background-image: url("/Users/caseyrousset/CTD-repos/Casey-Rousset-Johnson-JSIntro26.4/images/Mountain.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* background-color: #0e8fc6; */
+    color: rgb(52, 52, 52);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Section Styles */
+/* spacing added between sections and edges of page */
+section {
+    margin: 20px;
+}
+
+#About {
+    /* Alignment and content changes to about section */
+    width: 95%;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+
+/* Changed the bullets to small images and made the text bold */
+#Experience {
+    list-style-image: url("/Users/caseyrousset/CTD-repos/Casey-Rousset-Johnson-JSIntro26.4/images/comet-bullet-point.png");
+}
+
+/* Useed flexbox and justify-content to align job titles and dates at the opposit ends of the page */
+.experience-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* removed bullet points and displayed logos horizontally */
+#Connect ul{
+    list-style: none;
+    padding-left: 20px;
+    gap: 20px;
+    display: flex;
+}
