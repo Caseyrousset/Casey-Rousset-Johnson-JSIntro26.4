@@ -4,31 +4,93 @@
     <title>Casey Rousset-Johnson's Portfolio</title>
     <meta charset="UTF-8"> 
     <meta name="keywords" content="HTML, Portfolio, Lesson 5">
+
+    <!-- Link to CSS Sheet -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- IBM Plex from Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Casey Rousset-Johnson</h1>
+    <!-- Header with name -->
+
+    <header> 
+        <h1>Hi, I'm Casey Rousset-Johnson!</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Connect">Connect</a></li>
+            <li><a href="#Comet">Comet</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section using id selector -->
     <section id="About">
-    <h2>About</h2>
-    <p>Hello, I'm Casey! I am an aspiring web developer and avid hiker. I enjoy relaxing walks with my dog, cooking, fantasy and scifi books, board games, hiking, and videogames.</p>
+        <h2>About</h2>
+        <p>I am a geologist by education, a big videogame and boardgame enthusiast, an avid hiker, and an aspiring web developer. I hold a bachelor's degree in Geology and previously worked for a geotechnical engineering firm as a geologist. I've earned a certificate of completion from Stanford's Code in Place program and am currently participating in the Code the Dream program.</p>
+        <P>I'm excited to to combine my experience in geology with my journey through web development to show off my creativity and explore new possibilities. My experience in geology has taught me how everything comes in layers, whether it be the rocks beneath our feet or the intricacies in coding. I'm always looking forward to learning something new, tackling a challenge, and discovering where this journey in technology will take me!</p>
     </section>
+
+    <!-- Projects Section using id selector -->
+    <section id="Projects">
+        <h2>Projects</h2>
+        <ul></ul>
+    </section>
+
+    <!-- Experience Section using id selector -->
     <section id="Experience">
-    <h2>Experience</h2>
-    <ul>
-        <li>Staff Geologist at a Geotechnical Engineering Firm</li>
-        <li>Certificate of completion from Code in Place</li>
-    </ul>
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <div class="experience-title">
+                    <h3>Staff Geologist at a Geotechnical Engineering Firm</h3>
+                    <h3>2022 - 2026</h3>
+                </div>
+                <p>Worked as a geologist for a geotechnical engineering firm, conducting field investigations, analyzing soil and rock samples, and providing recommendations for construction projects.</p>
+            </li>
+            <li>
+                <div class="experience-title">
+                    <h3>Certificate of completion from Code in Place</h3>
+                    <h3>2026</h3>
+                </div>
+                <p>Completed the Code in Place program, gaining skills in Python.</p>
+            </li>
+        </ul>
     </section>
+
+    <!-- Skills Section using id selector -->
+    <section id="Skills">
+        <h2>Skills</h2>
+        <ul></ul>
+    </section>
+
+    <!-- Connect Section using id selector -->
     <section id="Connect">
-    <h2>Connect</h2>
-    <ul>
-        <li><a href="https://www.linkedin.com/in/caseyfrj/">LinkedIn</a></li>
-        <li><a href="https://github.com/caseyrousset">GitHub</a></li>
-    </ul>
+        <h2>Connect</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/caseyfrj/">
+                <img src="./images/LI-In-Bug.png" alt="LinkedIn logo" width="30" height="30">
+            </a></li>
+            <li><a href="https://github.com/caseyrousset">
+                <img src="./images/GitHub_Invertocat_Black.png" alt="GitHub logo" width="30" height="30">
+            </a></li>
+        </ul>
     </section>
+
+    <!-- Comet Section using id selector -->
     <section id="Comet">
-    <h2>Comet</h2>
-    <p> This is Comet! He is obsessed with balls and squeaky toys. He may look like an old man, but he is only 4 years old! </p>
-    <img src="/images/Comet.jpg" alt="Comet, a small black dog sitting and looking at the camera" width="500" height="600">
+        <h2>Comet</h2>
+        <p> This is Comet, he is my furry best friend! He is obsessed with balls and squeaky toys. Despite his old man appearance, he is only 5 years old! </p>
+        <img src="./images/Comet.jpg" alt="Comet, a small black dog sitting and looking at the camera" width="500" height="600">
     </section>
 </body>
 </html>
