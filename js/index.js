@@ -7,10 +7,9 @@ console.log("Javascript is connected!");
 let today = new Date();
 let thisYear = today.getFullYear();
 
-let insertFooter = document.createElement("footer");
-document.body.appendChild(insertFooter);
+let footer = document.createElement("footer");
+document.body.appendChild(footer);
 
-let footer = document.querySelector("footer");
 let copyright = document.createElement("p");
 copyright.innerHTML = `&copy; ${thisYear} Casey Rousset-Johnson`;
 footer.appendChild(copyright);
