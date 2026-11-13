@@ -1,6 +1,6 @@
 /* CSS for Casey Rousset-Johnson's Portfolio */
 
-/* General Styles */
+/* =============== General Styles =============== */
 body {
     background-color: #304249;
     color: #bee0b0;
@@ -18,7 +18,9 @@ body {
 
 } 
 
-/* Navigation Bar Styles */
+/* ============================== MAIN PAGE ==============================  */
+
+/* =============== Navigation Bar Styles =============== */
 nav {
     background-color: #e4bc92;
     /* sticky based on optional challenge */
@@ -46,7 +48,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Header Styles */
+/* =============== Header Styles =============== */
 header {
     background-image: url("../images/Mountain.jpeg");
     background-size: 100% 100%;
@@ -59,12 +61,21 @@ header {
     text-align: center;
 }
 
-/* Section Styles */
+/* =============== Section Styles =============== */
 /* spacing added between sections and edges of page */
 section {
     margin: 20px;
 }
 
+/* Changed the bullets to small images of Comet */
+/* #Projects,
+#Experience,
+#Skills
+{
+    list-style-image: url("../images/comet-bullet-point.png");
+} */
+
+/* =============== About Styles =============== */
 #About {
     /* Alignment and content changes to about section */
     width: 95%;
@@ -72,16 +83,48 @@ section {
     text-align: center;
 }
 
-/* Changed the bullets to small images and made the text bold */
-#Experience {
-    list-style-image: url("../images/comet-bullet-point.png");
+
+
+/* =============== Project Styles ===============  */
+
+ul li a {
+    /* remove underline from links and make text easier to read*/
+    color: #bee0b0;
+    font-weight: bold;
 }
 
+/* =============== Experience Styles ===============  */
+
 /* Useed flexbox and justify-content to align job titles and dates at the opposit ends of the page */
+
+#Experience ul li {
+    list-style: none;
+    border: 1px #e4bc92 solid;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
 .experience-title {
     display: flex;
     justify-content: space-between;
 }
+
+/* =============== Skills Styles ===============  */
+
+#Skills ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+    width: fit-content;
+    column-gap: 100px;
+
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto; */
+}
+
+/* =============== Connect Styles ===============  */
 
 /* removed bullet points and displayed logos horizontally */
 #Connect ul{
@@ -90,3 +133,8 @@ section {
     gap: 20px;
     display: flex;
 }
+
+
+/* ============================== Comet Page ============================== */
+
+/* ============================== Raining Frogs Page ============================== */
