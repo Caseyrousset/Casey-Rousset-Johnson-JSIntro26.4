@@ -1,19 +1,27 @@
+
+
+// ===== FOOTER ===== //
+
 console.log("Javascript is connected!");
 
 let today = new Date();
 let thisYear = today.getFullYear();
+
+let insertFooter = document.createElement("footer");
+document.body.appendChild(insertFooter);
 
 let footer = document.querySelector("footer");
 let copyright = document.createElement("p");
 copyright.innerHTML = `&copy; ${thisYear} Casey Rousset-Johnson`;
 footer.appendChild(copyright);
 
+
+// ====== SKILLS ===== //
+
 let skills = ["JavaScript", "HTML", "CSS", "GitHub"];
 
-// I believe this would also work in less lined of code: 
-// let skillsList = document.querySelector('#Skills ul'); 
-let skillSection = document.querySelector('#Skills');
-let skillsList = skillSection.querySelector('ul');
+let skillsSection = document.querySelector('#Skills');
+let skillsList = skillsSection.querySelector('ul');
 
 for (let i = 0; i < skills.length; i++) {
     let skill = document.createElement('li');
