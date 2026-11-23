@@ -134,7 +134,48 @@ ul li a {
     display: flex;
 }
 
+/* =============== Message Styles =============== */
 
+#submit_message {
+    max-width: 80%;
+    border-radius: 8px;
+    /* background-color: #3e4a47; */
+    text-align: left;
+}
+
+#submit_message form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#submit_message form div {
+    display: flex;
+    gap: 10px;
+}
+
+#submit_message textarea {
+    resize: none;
+    min-height: 80px;
+    max-height: 300px;
+    min-width: 390px;
+}
+
+#Messages ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#submit_message form button {
+    max-width: 100px;
+}
+
+/* TEST */
+.messageText {
+    color: aliceblue;
+}
 /* ============================== Comet Page ============================== */
 
 /* ============================== Raining Frogs Page ============================== */
